@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="hero-photo.svg" width="100%" alt="Hi, I'm Harshini"/>
+<img src="hero.svg" width="100%" alt="Hi, I'm Harshini"/>
 
 <br/>
 
