@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 56" width="190" height="56"><defs>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a0a45"/><stop offset="1" stop-color="#0d0318"/></linearGradient>
+</defs>
+<style>
+text{font-family:'Trebuchet MS',Verdana,sans-serif}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 14s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.flow{animation:flow 3s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-64}}
+</style>
+<rect x="4" y="4" width="182" height="48" rx="12" fill="#14061f" stroke="#ff2d95" stroke-width="2.5" class="pulse" filter="url(#glow)"/>
+<text x="95" y="35" font-size="17" font-weight="bold" text-anchor="middle" fill="#ffd9ec">GitHub Repos</text></svg>

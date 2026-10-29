@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440"><defs>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a0a45"/><stop offset="1" stop-color="#0d0318"/></linearGradient>
+</defs>
+<style>
+text{font-family:'Trebuchet MS',Verdana,sans-serif}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 14s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.flow{animation:flow 3s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-64}}
+</style>
+<rect width="900" height="440" rx="18" fill="url(#bg)"/>
+<g stroke="#ff2d95" stroke-opacity=".5" stroke-width="1.5"><line x1="450" y1="10" x2="450" y2="430"/><line x1="10" y1="220" x2="890" y2="220"/></g>
+<text x="40" y="62" font-size="26" font-weight="bold" text-anchor="start" fill="#ffd9ec">My Projects</text><text x="40" y="92" font-size="13" text-anchor="start" fill="#d9a8c8">AI + IoT systems: Talent Bridge,</text><text x="40" y="112" font-size="13" text-anchor="start" fill="#d9a8c8">DriveGuard AI, AquaSense AI,</text><text x="40" y="132" font-size="13" text-anchor="start" fill="#d9a8c8">AgroLink Direct, Motor Health IIoT</text>
+<rect x="340" y="38" width="78" height="30" rx="7" fill="none" stroke="#ff2d95" stroke-width="2"/><text x="379" y="58" font-size="14" text-anchor="middle" fill="#ffd9ec">Build</text>
+<text x="860" y="62" font-size="26" font-weight="bold" text-anchor="end" fill="#ffd9ec">Tech Stack</text><text x="860" y="92" font-size="13" text-anchor="end" fill="#d9a8c8">C, C++, Python, Java, Arduino,</text><text x="860" y="112" font-size="13" text-anchor="end" fill="#d9a8c8">Raspberry Pi, MATLAB, Edge Impulse,</text><text x="860" y="132" font-size="13" text-anchor="end" fill="#d9a8c8">PCB design, Git and GitHub</text>
+<rect x="480" y="38" width="78" height="30" rx="7" fill="none" stroke="#ff2d95" stroke-width="2"/><text x="519" y="58" font-size="14" text-anchor="middle" fill="#ffd9ec">Learn</text>
+<text x="40" y="285" font-size="26" font-weight="bold" text-anchor="start" fill="#ffd9ec">Internships</text><text x="40" y="315" font-size="13" text-anchor="start" fill="#d9a8c8">TANGEDCO - state power utility</text><text x="40" y="335" font-size="13" text-anchor="start" fill="#d9a8c8">Sunshiv Electronic Solutions -</text><text x="40" y="355" font-size="13" text-anchor="start" fill="#d9a8c8">PCB design</text>
+<rect x="340" y="400" width="78" height="30" rx="7" fill="none" stroke="#ff2d95" stroke-width="2"/><text x="379" y="420" font-size="14" text-anchor="middle" fill="#ffd9ec">Grow</text>
+<text x="860" y="285" font-size="26" font-weight="bold" text-anchor="end" fill="#ffd9ec">Hackathons</text><text x="860" y="315" font-size="13" text-anchor="end" fill="#d9a8c8">SIH 2025, TECHgium 10, atomQUEST,</text><text x="860" y="335" font-size="13" text-anchor="end" fill="#d9a8c8">KONE ELEVATE'26, TELIPORT S4,</text><text x="860" y="355" font-size="13" text-anchor="end" fill="#d9a8c8">DataForge x Pathway</text>
+<rect x="480" y="400" width="78" height="30" rx="7" fill="none" stroke="#ff2d95" stroke-width="2"/><text x="519" y="420" font-size="14" text-anchor="middle" fill="#ffd9ec">Compete</text>
+<circle cx="450" cy="220" r="100" fill="#14061f" stroke="#ff2d95" stroke-width="4" class="pulse" filter="url(#glow)"/>
+<circle cx="450" cy="220" r="118" fill="none" stroke="#b100ff" stroke-width="2" stroke-dasharray="10 14" class="spin" filter="url(#glow)"/>
+<path d="M462 170 L424 232 H448 L438 272 L478 206 H454 Z" fill="#ff2d95" filter="url(#glow)"/>
+</svg>
