@@ -1,16 +1,16 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="100%" alt="Hi, I'm Harshini"/>
+<img src="hero.svg" width="100%" alt="Hi, I'm Harshini"/>
 
 <br/>
 
-<a href="https://linkedin.com/in/harshini-savitha-74352a310"><img src="assets/btn-linkedin.svg" height="48" alt="LinkedIn"/></a>
-<a href="mailto:kit28.24bee024@gmail.com"><img src="assets/btn-email.svg" height="48" alt="Email"/></a>
-<a href="https://github.com/Harshini-1021?tab=repositories"><img src="assets/btn-github.svg" height="48" alt="GitHub Repos"/></a>
+<a href="https://linkedin.com/in/harshini-savitha-74352a310"><img src="btn-linkedin.svg" height="48" alt="LinkedIn"/></a>
+<a href="mailto:kit28.24bee024@gmail.com"><img src="btn-email.svg" height="48" alt="Email"/></a>
+<a href="https://github.com/Harshini-1021?tab=repositories"><img src="btn-github.svg" height="48" alt="GitHub Repos"/></a>
 
 <br/><br/>
 
-<img src="assets/grid.svg" width="100%" alt="Projects, Tech Stack, Internships, Hackathons"/>
+<img src="grid.svg" width="100%" alt="Projects, Tech Stack, Internships, Hackathons"/>
 
 <br/><br/>
 
