@@ -35,7 +35,7 @@
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harshini-1021&layout=compact&hide_border=true&bg_color=14061f&title_color=ff2d95&text_color=ffd9ec&langs_count=6" />
 
 <img src="https://streak-stats.demolab.com?user=Harshini-1021&theme=dark&hide_border=true&background=14061f&ring=ff2d95&fire=b100ff&currStreakLabel=ff2d95&sideLabels=b100ff&currStreakNum=ffd9ec&sideNums=ffd9ec&dates=d9a8c8" />
-
+<img src="https://raw.githubusercontent.com/Harshini-1021/Harshini-1021/output/github-snake.svg" width="95%" alt="snake animation"/>
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Harshini-1021&bg_color=14061f&color=ff2d95&line=b100ff&point=ffffff&area=true&hide_border=true" width="95%" />
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:b100ff,100:ff2d95&height=100&section=footer" width="100%"/>
